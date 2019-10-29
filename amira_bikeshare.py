@@ -14,6 +14,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
+    "ammera project"
 
     print('\nHello! Let\'s explore some US bikeshare data!\n')
     
@@ -198,7 +199,7 @@ Display row data to user if want.
     start = 0
     end = 5
 
-    display_data = input("Do you want to see the raw data?say yes or no: ")
+    display_data = input("Do you want to see the raw data?please say yes or no: ")
 
     if display_data == 'yes':
         while end <= df.shape[0] - 1:
@@ -207,7 +208,7 @@ Display row data to user if want.
             start += 5
             end += 5
 
-            end_data = input("Do you want to continue?say yes or no: ")
+            end_data = input("Do you want to continue?please say yes or no: ")
             if end_data == 'no':
                 break
 
