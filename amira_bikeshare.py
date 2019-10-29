@@ -165,7 +165,7 @@ def user_stats(df):
       gender = df['Gender'].value_counts()
       print('\nThe Gender Types:\n', gender)
     except KeyError:
-      print("No data..")
+      print("Sorry,something wrong Try again..")
     
 
     # Display earliest, most recent, and most common year of birth
